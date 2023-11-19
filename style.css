@@ -28,6 +28,10 @@
     color: white;
 }
 
+html {
+	overflow-x: hidden;
+}
+
 body {
     background: #c6f6ff;
     background-image: linear-gradient(to bottom, rgb(128, 0, 255), rgb(0, 21, 255));
@@ -36,6 +40,7 @@ body {
     -webkit-background-size: cover;
     -o-background-size: cover;
     background-position: center center;
+	overflow-x: hidden;
 }
 
 .button {
@@ -43,7 +48,6 @@ body {
     color: black;
 	display: block;
 	height: 60px;
-	width: 400px;
 	border-radius: 20px; 
 	margin: 20px auto;
 	text-decoration: none;
@@ -55,6 +59,18 @@ body {
     filter: drop-shadow(1px 1px 10px rgba(0,0,0,.1));
     -webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@media (orientation: landscape) {
+	.button {
+		width: 25VW;
+	}
+}
+
+@media (orientation: portrait) {
+	.button {
+		width: 70VW;
+	}
 }
 
 .button:hover {
