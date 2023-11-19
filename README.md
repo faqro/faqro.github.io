@@ -1,2 +1,2 @@
 # faqro.github.io
- Personal Website
+ Personal Website made in vanilla HTML + CSS

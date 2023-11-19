@@ -1,0 +1,154 @@
+* {
+	font-family: Roboto, sans-serif;
+}
+
+.about {
+	margin-top: 60px;
+}
+
+.name {
+    font-family: Quicksand, sans-serif;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+}
+
+.buttonheading {
+    font-family: Quicksand, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+    color: white;
+}
+
+.description {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+body {
+    background: #c6f6ff;
+    background-image: linear-gradient(to bottom right, rgb(128, 0, 255), rgb(0, 21, 255));
+    background-size: cover;
+}
+
+.button {
+	background: white;
+    color: black;
+	display: block;
+	height: 60px;
+	width: 400px;
+	border-radius: 20px; 
+	margin: 20px auto;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	line-height: 60px;
+	font-size: 20px;
+	transition: 0.3s;
+    filter: drop-shadow(1px 1px 10px rgba(0,0,0,.1));
+    -webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.button:hover {
+    background: rgb(130, 168, 255);
+    background-image: linear-gradient(to right, rgb(183, 199, 255), rgb(187, 160, 255));
+}
+
+.button_icon {
+	position: relative;
+	float: left;
+	width: 30px;
+	height: 30px;
+	left: 50px;
+	top: 15px;
+}
+
+.foot {
+    color: white;
+    bottom: 0px;
+    font-size: 12px;
+    position: fixed;
+}
+
+.profilepicture {
+    border-radius: 30%;
+    width: 128px;
+    height: 128px;
+    top: 15px;
+    margin: auto;
+    display: block;
+    filter: drop-shadow(2px 2px 10px rgba(0,0,0,.5));
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.break {
+    margin: 50px auto;
+}
+
+#id1 {
+    animation-delay: 0.05s;
+}
+#id2 {
+    animation-delay: 0.1s;
+}
+#id3 {
+    animation-delay: 0.15s;
+}
+#id4 {
+    animation-delay: 0.2s;
+}
+#id5 {
+    animation-delay: 0.25s;
+}
+#id6 {
+    animation-delay: 0.3s;
+}
+#id7 {
+    animation-delay: 0.35s;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+@keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+@-webkit-keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+}
+@keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+}
