@@ -43,6 +43,15 @@ body {
 	overflow-x: hidden;
 }
 
+.textlink {
+	color: white;
+	font-weight: bold;
+}
+
+.textlink:hover {
+	color: rgb(206, 201, 255);
+}
+
 .button {
 	background: white;
     color: black;
