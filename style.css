@@ -6,12 +6,8 @@
 	margin-top: 60px;
 }
 
-.h2 {
-    font-family: metro_vancouverregular, sans-serif;
-}
-
 .name {
-    font-family: Quicksand, sans-serif;
+    font-family: metro_vancouverregular, sans-serif;
     text-align: center;
     font-size: 36px;
     color: white;
