@@ -6,6 +6,15 @@
 	margin-top: 60px;
 }
 
+.positions {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
 .name {
     font-family: metro_vancouverregular, sans-serif;
     text-align: center;
@@ -139,6 +148,9 @@ body {
 }
 #id7 {
     animation-delay: 0.35s;
+}
+#id7 {
+    animation-delay: 0.4s;
 }
 
 @-webkit-keyframes scale-up-center {
